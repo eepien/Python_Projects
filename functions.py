@@ -20,6 +20,7 @@ print("Start")
 greet_user2("John")      #If we miss adding the parameter, program crashes.
 greet_user2("Mary")      # John and Mary are arguments (actual values)
 print("Finish")
+print()
 
 #=====================================
 #Function returns first and last name
@@ -28,35 +29,13 @@ def greet_user3(first_name, last_name):
     print(f"Hi {first_name} {last_name}")
     print("Welcome aboard")
 
-print("Start")
-greet_user3("John", "Smith")
-greet_user3("Mary", "Parker")
-print("Finish")
+#print("Start")
+fname = input("Enter your firstname: ")
+lname = input("Enter your lastname: ")
+greet_user3(fname, lname)
+#greet_user3("John", "Smith")
+#greet_user3("Mary", "Parker")
+#print("Finish")
 
-#=============================
-# Return function
-#=============================
-def square(number):
-    return number * number                  #return prevents function from returning None (default)
 
-print(square(3))
-
-#==============================
-# Function Emoji converter
-#============================
-def emoji_conv(message):
-    words = message.split(" ")
-    # print(words)
-    emojis = {
-        ":)": "😊",
-        ":(": "😒"
-    }
-    output = ""
-    for word in words:
-        output += emojis.get(word, word) + " "
-    return output
-
-message = input(" Are you Happy :) or Sad :(? > ")
-results = emoji_conv(message)
-print(results)
 
