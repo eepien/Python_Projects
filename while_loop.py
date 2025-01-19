@@ -21,5 +21,5 @@ while  guess_count <= guess_limit:
         break
     else:
         print("You guess wong. Try again")
-print("Hope you had fun!")
+print("Hope you had fun!")  #Testing the guess game. 01/18
 
