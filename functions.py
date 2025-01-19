@@ -1,5 +1,4 @@
-from emoji_converter import output
-
+#from emoji_converter import output
 
 def greet_user():                            #Defines the function
     print("Hi there!")
@@ -57,7 +56,7 @@ def emoji_conv(message):
         output += emojis.get(word, word) + " "
     return output
 
-message = input("> ")
+message = input(" Are you Happy :) or Sad :(? > ")
 results = emoji_conv(message)
 print(results)
 

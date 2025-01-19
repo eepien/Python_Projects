@@ -1,7 +1,7 @@
 #=====================================
-# Program Emogy Converter: Outputs an emogy
+# Program Emoji Converter: Outputs an emogy
 #=====================================
-message = input("> ")                  # > indicator for user to type a message
+message = input("Are you happy :) or Sad :(? > ")                  # > indicator for user to type a message
 words = message.split(" ")            # splits the string by space. Usesspace as boundary to seperate strings
 #print(words)                          # > Hello I am Epie --> ['Hello', 'I', 'am', 'Epie']
 emojis = {
