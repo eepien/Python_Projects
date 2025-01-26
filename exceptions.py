@@ -6,5 +6,6 @@ try:
 except ValueError:                           #Error that shows up on terminal if this particular error is made.
     print("Invalid age value entered")       #Prints Invalid Value instead of Value Error, for invalid inputs, eg. Age = abc
 
+# Here is the syntax:
 #except <terminal error id>:                  #There can be more than one exceptions
 #    print(whatever you want here)
