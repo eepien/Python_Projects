@@ -18,9 +18,11 @@ class Cat(Mammal):
    def be_annoying(self):
        print("Annoying")
 
+print("Dog Behaviors:")
 dog1 = Dog()
 dog1.walk()
 dog1.bark()
-
+print("*******************")
+print("Cat Behaviors:")
 cat1 = Cat()
 cat1.be_annoying()
